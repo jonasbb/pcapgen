@@ -1,0 +1,11 @@
+[package]
+name = "pcapgen"
+version = "0.1.0"
+authors = ["Jonas Bushart <jonas@bushart.org>"]
+
+[dependencies]
+byteorder = "~1.0.0"
+
+[dependencies.clap]
+version = "~2.22.0"
+features = ["color", "suggestions"]
